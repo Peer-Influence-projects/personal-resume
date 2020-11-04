@@ -197,6 +197,13 @@ footer{
       inset -8px -8px 12px 0  rgba(13, 38, 56, 0.9);
 }
 
+.menu-input:active {
+    background-color: var(--clr-blueaccent);
+    color: var(--clr-gold);
+    box-shadow: inset 8px 8px 20px 0 rgb(1, 29, 46),
+      inset -8px -8px 12px 0  rgba(13, 38, 56, 0.9);
+}
+
 .menu-input > a:hover{
     color:var(--clr-gold);
    
@@ -218,12 +225,13 @@ a.menu-input.download_button> a{
     font-size:1.3rem;
 }
 
-.input-menu:hover, .download-section a:hover {
+.input-menu:hover, .download-section a:hover, .input-menu:active  {
     background-color: var(--clr-blueaccent);
     color: var(--textColor);
     box-shadow: inset 8px 8px 20px 0 rgb(1, 29, 46),
       inset -8px -8px 12px 0  rgba(13, 38, 56, 0.9);
 }
+
 
 .download-section a {
     display: flex;
@@ -878,7 +886,7 @@ span.item-text{
     text-align: center;
     line-height:80px;
     font-size:14px;
-    margin:30px auto 10px;
+    margin:auto;
     
     
 }
@@ -1374,6 +1382,11 @@ i.fas.fa-times{
 
 .social-container-element > div > p, .social-container-element > div > a {
     margin-left:20px;
+}
+
+footer{
+    margin: 2rem auto;
+    margin-bottom:10px;
 }
 
 
@@ -2018,11 +2031,6 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     
     }
 
-    .footer-disclaimer{
-        margin: 0 auto;
-        margin-top:20px;
-    }
-
     .header-menu{
         margin:0rem auto;
     }
@@ -2062,7 +2070,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 
 @media screen and (min-width: 1200px) {
     header{
-        height:80vh;
+        height:90vh;
     }
 
     .download-section, .intro-section, .profile-section {
@@ -2102,7 +2110,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 @media screen and (min-width: 1360px) {
 
     header{
-        height:85vh;
+        height:90vh;
     }
 
 
@@ -2120,6 +2128,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     max-width: 250px;
 }
 
+
 .career-section {
     position: absolute;
     top: 1410px;
@@ -2128,10 +2137,6 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 .intro-section{
     width:100%;
     max-width:500px;
-}
-
-.footer-disclaimer{
-    margin-bottom: 0;
 }
 
 .download-section, .intro-section, .profile-section {
@@ -2158,6 +2163,11 @@ div.hero-image {
     width: 190px;
     height: 190px;
     border-radius: 50%;
+}
+
+footer{
+    margin: 1rem auto;
+
 }
 
 }
