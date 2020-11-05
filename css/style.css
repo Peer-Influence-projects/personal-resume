@@ -1267,12 +1267,12 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 
 
 
-#skills > div.section-title {
+.skills > div.section-title {
     margin: 0rem;
     margin-top: 3rem;
 }
 
-#skills > div > h1, #skills > div > div > h1{
+.skills > div > h1, .skills > div > div > h1{
     display: block;
     width: 100%;
     font-size: var(--fs-body);
@@ -1284,7 +1284,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     text-align: left;
 }
 
-div#blog.intro-container{
+div.blog.intro-container{
     background-color: var(--clr-main);
     color: var(--textColor);
 }
