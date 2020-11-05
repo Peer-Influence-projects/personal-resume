@@ -1941,7 +1941,7 @@ div.career-section-bars {
 
 .career-section {
     position: absolute;
-    top: 1484px;
+    top: 1600px;
 }
 
 .social-circles {
@@ -2059,8 +2059,7 @@ h1.intro-heading{
     }
     
     .career-section {
-        position: absolute;
-        top: 1484px;
+       
     }
 
 
@@ -2093,10 +2092,6 @@ h1.intro-heading{
         left: 0px;
     }
 
-    .career-section {
-        position: absolute;
-        top: 1498px;
-    }
 
     .intro-container {
         left: 0px;
@@ -2143,7 +2138,7 @@ h1.intro-heading{
 
 .career-section {
     position: absolute;
-    top: 1408px;
+    top: 1500px;
 }
 
 .intro-section{
