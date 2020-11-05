@@ -606,7 +606,6 @@ div.hero-image{
 }
 
 /*Modal Styling 8/
-
 /* Intro Section*/
 .intro-container {
     display:none;
@@ -1385,7 +1384,7 @@ i.fas.fa-times{
 }
 
 footer{
-    margin: 2rem auto;
+    margin: 0rem auto;
     margin-bottom:10px;
 }
 
@@ -1522,7 +1521,7 @@ h1.intro-heading{
     color:#ddd;
     text-transform: uppercase;
     font-size: 18px;
-    margin:2rem auto;
+    margin:0rem auto;
     letter-spacing: 1px;
 }
 
@@ -1763,7 +1762,7 @@ div.career-section-bars {
     header{
         flex-wrap: nowrap;
         padding:0;
-        height:100vh;
+        height:90vh;
     }
 
     .intro-container {
@@ -1780,7 +1779,7 @@ div.career-section-bars {
         width: 500px;
         border-radius: 20px;
         color: var(--clr-lightgrey);
-        height: 100vh;
+        height: 85vh;
         padding: 2rem;
       
     }
@@ -1790,7 +1789,7 @@ div.career-section-bars {
     flex-direction: column;
     padding:0rem;
     border-radius: 20px;
-    height: 100vh;
+    height: 85vh;
     padding: 2rem;
     width:100%;
     margin:0 2rem;
@@ -1811,7 +1810,7 @@ div.hero-image {
     height:40px;
     width:100%;
     max-width: 200px;
-    margin:1rem auto;
+    margin:0rem auto;
 }
 
 .home-profile-item:nth-child(1){
@@ -1887,7 +1886,7 @@ body > div > header > section.profile-section > div.header-menu > div > a{
 }
 
 div.circle-menu-input.a-button > a > i{
-    font-size:1em;
+    font-size:1.25rem;
 }
 
 .fa-cog {
@@ -1957,7 +1956,7 @@ div.career-section-bars {
 .social-circles > .circle-element  {
     width:40px;
     height:40px;
-    margin: 1.2rem 20px;
+    margin: 1rem 20px;
 }
 .social-circles > .circle-element > .circle-inner {
 width:40px;
@@ -2018,6 +2017,11 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     font-size:0.92rem;
 }
 
+h1.intro-heading{
+    font-size:0.9rem;
+    margin-top:20px;
+}
+
 }
 
 @media screen and (min-width: 1024px) {
@@ -2027,7 +2031,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     }
 
     .download-section, .intro-section, .profile-section {
-        height:89vh;
+        height:80vh;
     
     }
 
@@ -2074,7 +2078,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
     }
 
     .download-section, .intro-section, .profile-section {
-        height:85vh;
+        height:80vh;
     }
 
     div.career-section-bars {
@@ -2104,6 +2108,14 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
         margin-bottom:10px;
     }
 
+    h1.intro-heading {
+        font-size: 1rem;
+    }
+
+.input-menu{
+    font-size:1rem;
+}
+
 }
 
 
@@ -2131,7 +2143,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 
 .career-section {
     position: absolute;
-    top: 1410px;
+    top: 1408px;
 }
 
 .intro-section{
@@ -2140,7 +2152,7 @@ body > div > header > section.profile-section > div.header-menu > div.social-cir
 }
 
 .download-section, .intro-section, .profile-section {
-    height:85vh;
+    height:80vh;
 }
 
 .download-section a {
@@ -2169,6 +2181,7 @@ footer{
     margin: 1rem auto;
 
 }
+
 
 }
 
