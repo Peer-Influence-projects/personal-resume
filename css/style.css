@@ -561,7 +561,7 @@ div.hero-image{
     background-color: var(--clr-lightgrey);
     border-radius: 50%;
     margin-top: -105px;
-    margin-left:5px;
+    margin-left:1px;
 }
 
 .c-button svg, .d-button svg { 
@@ -2031,7 +2031,7 @@ h1.intro-heading{
     }
 
     .download-section, .intro-section, .profile-section {
-        height:80vh;
+        height:86vh;
     
     }
 
@@ -2041,7 +2041,7 @@ h1.intro-heading{
 
     h1.intro-heading{
         font-size:1rem;
-        margin: 2rem auto;
+        margin: 0rem auto;
         margin-top:20px;
     }
 
@@ -2119,7 +2119,6 @@ h1.intro-heading{
     header{
         height:90vh;
     }
-
 
 .wrapper{
     width:100vw;
