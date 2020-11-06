@@ -2138,7 +2138,7 @@ h1.intro-heading{
 
 .career-section {
     position: absolute;
-    top: 1500px;
+    top: 1420px;
 }
 
 .intro-section{
@@ -2147,7 +2147,7 @@ h1.intro-heading{
 }
 
 .download-section, .intro-section, .profile-section {
-    height:80vh;
+    height:85vh;
 }
 
 .download-section a {
