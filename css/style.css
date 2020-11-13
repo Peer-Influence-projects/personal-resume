@@ -623,20 +623,10 @@ div.hero-image{
     bottom:0;
     right:0;
     padding:2rem;
-    box-shadow: 0 0 0 2em rgba(63, 58, 80, 0.09);
-    overflow-y: scroll;
-    transition: all 5s;
     box-shadow: 6px 6px 20px #0f202b, -6px -6px 20px #0f202b;
-    
- 
-}
-
-.off {
-    
-}
-
-.off {
-    
+    overflow-y: scroll;
+    transform: translateY(-200%);
+    transition: transform 5s;
 }
 
 .section-heading, .section-title {
@@ -1351,6 +1341,7 @@ display: none;
 
 .intro.is-open, .skills.is-open, .blog.is-open, .contact.is-open{
     display:block;
+    transform: translateY(0);
 }
 
 i.fas.fa-times{
@@ -2172,7 +2163,7 @@ div.hero-image {
 }
 
 footer{
-    margin: 1rem auto;
+    margin: 0rem auto;
 
 }
 
